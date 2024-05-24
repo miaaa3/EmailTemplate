@@ -1,99 +1,228 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+        <head>
+            <meta charset="UTF-8"><meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="x-apple-disable-message-reformatting"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta content="telephone=no" name="format-detection">
+            <title>Welcome Email</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+             <!--[if (mso 16)]><style type="text/css">     a {text-decoration: none;}     </style><![endif]--> <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--> <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG></o:AllowPNG> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]--> <!--[if !mso]>--> 
+             <style type="text/css">
+               
+        body {
+            font-family: 'Inter',sans-serif;
+            background-color: #F6F6F6;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+        }
+       
+        .block-text h1{
+            font-size: 25px;
+            font-weight: 700;
+            padding: 10px 30px 0 30px;
+        }
+        .block-text p{
+            font-size: 12px;
+            padding: 0 30px 0 30px;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            
+        }
+        .header {
+            background-color: #c3dbd2;
+            padding: 20px;
+            text-align: left;
+        }
+        .footer{
+            font-size: 15px;
+            background-color: #c3dbd2;
+            padding: 20px;
+            text-align: left;
+        }
+        .footer div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .header img {
+            display: block;
+        }
+        .header p {
+            margin: 0;
+            color: #333333;
+            font-size: 14px;
+        }
+        .main-content {
+            padding: 25px;
+            text-align: left;
+            background-color: #c3dbd2;
+            display: flex;
+            align-items: center;
+        }
+        .main-content h1 {
+            font-size: 44px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .main-content p {
+            font-size: 18px;
+            color: #333333;
+        }
+        .content-section {
+            padding: 30px;
+        }
+        .content-section p {
+            font-size: 20px;
+            color: #333333;
+        }
+        .steps-section {
+            text-align: center;
+        }
+        .steps-section h1 {
+            font-size: 31px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .steps-section .step {
+            display: flex;
+            align-items: center;
+            padding: 20px 30px;
+        }
+        .steps-section .step img {
+            border-radius: 50px;
+            background-color: #2fcf94;
+            padding: 15px;
+        }
+        .steps-section .step-text {
+            margin-left: 30px;
+            text-align: left;
+        }
+        .steps-section .step-text h2 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .steps-section .step-text p {
+            font-size: 16px;
+            color: #333333;
+        }
+       
+        .powered-by p{
+            font-weight: bold;
+            margin: auto;
+
+        }
+
+         /* Media Queries */
+         @media only screen and (max-width: 600px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .main-content div {
+                width: 100%; 
+                text-align: center; 
+                margin-bottom: 10px; 
+            }
+        }
+    </style>
 </head>
 <body>
-  <section class="flex flex-col items-center justify-center font-[Inter]">
-    <div class="w-full bg-[#c3dbd2] p-10">
-      <div class="flex justify-between items-center flex-wrap">
-        <img 
-          loading="lazy"
-          src="https://i.ibb.co/305PqyV/ystance.png"
-          class="md:w-[15rem] w-[11rem]"
-        />
-        <a class="underline md:text-sm text-[9px] ">View this email in your browser</a>
-      </div>
+    <table class="container" width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="header">
+                <table width="100%">
+                    <tr>
+                        <td align="left">
+                            <a href="https://ystance.com">
+                                <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/ystance.png" alt="Y/STANCE logo" width="233" height="62">
+                            </a>
+                        </td>
+                        <td align="right">
+                            <a style="font-size: 12px;" href="*">View this email in browser</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="main-content">
+                <div>
+                    <p>We’re so happy to have you</p>
+                    <h1><strong>John Doe, welcome to Y/STANCE!</strong></h1>
+                </div>
+                <div>
+                    <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/untitled_design__2_removebgpreview.png" alt="Welcome image" height="363" width="234">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" class="block-text">
+                <h1>Incididunt dolor incididunt et elit et non esse ex idunt dolo</h1>
+                <p style="display: none;"><br></p>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" class="block-text">
+                <p style="font-size: 18px; text-align: justify;">Sit proident cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="steps-section">
+                <h1>Here are a few ways to get started</h1>
+                <div class="step">
+                    <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/step1.png" alt="Step 1" width="64" height="61">
+                    <div class="step-text">
+                        <h2>Step 1</h2>
+                        <p>Complete your profile to get personalized recommendations.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/step2.png" alt="Step 2" width="64" height="62">
+                    <div class="step-text">
+                        <h2>Step 2</h2>
+                        <p>Explore our resources and start learning right away.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/step3.png" alt="Step 3" width="68" height="68">
+                    <div class="step-text">
+                        <h2>Step 3</h2>
+                        <p>Join our community and connect with like-minded individuals.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img class="adapt-img" src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/step4.png" alt style="display: block;" width="68">
+                    <div class="step-text">
+                        <h2>Step 4</h2>
+                        <p>Join our community and connect with like-minded individuals.</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
 
-      <div class="flex flex-col md:flex-row justify-between items-center mt-6">
-        <div class="text-center md:text-left">
-          <p class="md:text-3xl text-xl">We’re so happy to have you</p>
-          <h1 class="md:text-6xl text-4xl font-bold">John Doe, welcome to Y/STANCE!</h1>
-        </div>
-        <img 
-          loading="lazy"
-          srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/202996e0983045c10f4d873901d848ae0a26056f5803bf02d9a151e4be8b7977?apiKey=1340fd5975384d58ba9f04ad3ceea842&"
-          class="md:h-96 h-44 mt-4 md:mt-0"
-        />
-      </div>
-    </div>
+        <tr>
+            <td class="footer">
+                <p>If you have any questions, feel free to message us at support@ystance.com All rights reserved. Update email preferences or unsubscribe.</p>
+                <div>
+                    <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/imageremovebgpreview_6.png" alt  width="50">
+                    <div class="powered-by">
+                        <p>Powered by</p>
+                        <img src="https://eiurdxi.stripocdn.email/content/guids/CABINET_556ccde93b999800ed933e95faed15da20b81b4c1fb56ea3a3924bed8c9b9ccf/images/agilteemlogo.png" alt width="232">
+                    </div>
+                </div>
+                
+            </td>
+        </tr>
 
-    <div class="mx-6 md:mx-20 mt-6">
-      <div class="py-10 font-medium">
-        <p class="md:text-3xl text-xl text-start">Incididunt dolor incididunt et elit et non esse ex idunt dolo</p>
-      </div>
-
-      <div>
-        <p class="text-justify md:text-xl text-sm">Sit proident cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing. cillum magna qui anim amet ut ea dolore exercitation cupidatat sit culpa adipisicing.</p>
-      </div>
-
-      <div class="flex justify-center mt-6">
-        <h1 class="md:text-4xl text-3xl font-semibold my-5 text-center">Here are a few ways to get started</h1>
-      </div>
-
-      <div class="flex flex-col items-center justify-center mb-5 *:w-fit">
-        <div class="flex  gap-4 md:gap-6 items-center mt-4 mb-4 w-full">
-          <img class="h-24 w-24 md:w-32 md:h-32 bg-[#2fcf94] rounded-full p-4" src="https://i.ibb.co/njkFfF9/step1.png" alt="">
-          <div class="text-center md:text-left">
-            <h1 class="md:text-3xl text-xl font-medium">Step 1</h1>
-            <p class=" md:text-2xl text-sm">Sit proident cillum magna qui anim amet ut ea dolore exercitation.</p>
-          </div>
-        </div>
-        <div class="flex  gap-4 md:gap-6 items-center mt-4 mb-4 w-full">
-          <img class="h-24 w-24 md:w-32 md:h-32 bg-[#2fcf94] rounded-full p-4" src="https://i.ibb.co/3f26Ndr/step2.png" alt="">
-          <div class="text-center md:text-left">
-            <h1 class="md:text-3xl text-xl font-medium">Step 2</h1>
-            <p class=" md:text-2xl text-sm">Sit proident cillum magna qui anim amet ut ea dolore exercitation.</p>
-          </div>
-        </div>
-        <div class="flex  gap-4 md:gap-6 items-center mt-4 mb-4 w-full">
-          <img class="h-24 w-24 md:w-32 md:h-32 bg-[#2fcf94] rounded-full p-4" src="https://i.ibb.co/JchFymD/step3.png" alt="">          
-          <div class="text-center md:text-left">
-            <h1 class="md:text-3xl text-xl font-medium">Step 3</h1>
-            <p class=" md:text-2xl text-sm">Sit proident cillum magna qui anim amet ut ea dolore exercitation.</p>
-          </div>
-        </div>
-        <div class="flex gap-4 md:gap-6 items-center mt-4 mb-4 w-full">
-          <img class="h-24 w-2240 md:w-32 md:h-32 bg-[#2fcf94] rounded-full p-4" src="https://i.ibb.co/7XtN515/step4.png" alt="">
-          <div class="text-center md:text-left">
-            <h1 class="md:text-3xl text-xl font-medium">Step 4</h1>
-            <p class=" md:text-2xl text-sm">Sit proident cillum magna qui anim amet ut ea dolore exercitation.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w-full bg-[#c3dbd2] p-16">
-      <div class="flex justify-center my-7">
-        <p class="text-justify font-medium mb-12 md:text-2xl text-xl ">If you have any questions, feel free to message us at support@ystance.com. All rights reserved. Update email preferences or unsubscribe.</p>
-      </div>
-    
-      <div class="flex justify-between items-end">
-        <svg class="w-10 h-10 md:w-14 md:h-14" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-          <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
-          <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
-        </svg>
-        <div class="flex items-center text-lg font-semibold">
-          Powered by
-          <img class="w-44 md:w-56 ml-2" src="https://i.ibb.co/YtS9ZLK/agilteem-Logo.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+    </table>
 </body>
 </html>
